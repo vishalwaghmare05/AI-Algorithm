@@ -200,3 +200,34 @@ empty_tile_posi = [ 1, 2 ]
   
 # Method call for solving the puzzle  
 solve(initial, empty_tile_posi, final)
+
+
+# LAB MANNUAL 4 | P a g e
+# Assignment - 2
+# TITLE :
+# To study A star (A*) Algorithm
+# OBJECTIVE :
+# To understand the concept of A star (A*) Algorithm.
+# PROBLEM STATEMENT:
+# Implement A star (A*) Algorithm for any game search problem.
+# ALGORITHM:
+# A* Algorithm():
+#  Add start node to list
+#  For all the neighbouring nodes, find the least cost F node
+#  Switch to the closed list
+# o For 8 nodes adjacent to the current node
+# o If the node is not reachable, ignore it. Else
+#  If the node is not on the open list, move it to the open list and calculate f, g, h.
+#  If the node is on the open list, check if the path it offers is less than the current path
+# and change to it if it does so.
+#  Stop working when
+# o You find the destination
+# o You cannot find the destination going through all possible points
+# THEORY:
+# A * algorithm is a searching algorithm that searches for the shortest path between the initial and the final
+# state. It is used in various applications, such as maps.
+# In maps the A* algorithm is used to calculate the shortest distance between the source (initial state) and the
+# destination (final state).
+# How it works
+# Imagine a square grid which possesses many obstacles, scattered randomly. The initial and the final cell is
+# provided. The aim is to reach the final cell in the shortest amount of time.
